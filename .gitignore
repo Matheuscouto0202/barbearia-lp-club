@@ -1,0 +1,37 @@
+# Ambiente
+.env
+.env.local
+.env.production
+.env.development
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Dependências
+node_modules/
+
+# Build
+dist/
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Credenciais e chaves
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+service-account*.json
